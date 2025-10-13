@@ -1,0 +1,5 @@
+{
+    "title": "FUTUREcisi: Critical Infrastructure Spatial Index projections",
+    "description": "This dataset contains the CISI index projections for all SSP scenarios.",
+    "crs": "EPSG:4326"
+}
