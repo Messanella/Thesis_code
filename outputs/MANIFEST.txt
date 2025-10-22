@@ -1,0 +1,10 @@
+Thesis Model Artifacts
+========================
+Checkpoint: checkpoints\best_unet_regression.pt
+Present-day GeoTIFF: outputs\cisi_pred_present_025deg.tif
+2030 GeoTIFF: outputs\cisi_pred_2030_025deg.tif
+QA Figures: qa_figs
+
+Metrics:
+- Val:  {'mae': nan, 'rmse': nan, 'r2': nan}
+- Test: {'mae': 0.0, 'rmse': 0.0, 'r2': 0.0}

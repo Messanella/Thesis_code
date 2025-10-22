@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-10-22T13:27:22.665922Z",
+  "grid": {
+    "crs": "EPSG:4326",
+    "resolution_deg": 0.25
+  },
+  "data": {
+    "inputs": "READY_data/inputs/historic_3band_025deg.tif",
+    "label": "READY_data/labels/2024_CISI_025deg.tif",
+    "scenario_2030": "READY_data/inputs/scenario_2030_3band_025deg.tif"
+  },
+  "splits": {
+    "train_val_test_split": "longitudinal 60/20/20 via BoundingBox ROIs"
+  },
+  "model": {
+    "arch": "smp.Unet",
+    "backbone": "resnet34",
+    "in_channels": 3,
+    "classes": 1,
+    "activation": "external sigmoid"
+  },
+  "training": {
+    "patch": 64,
+    "batch": 4,
+    "epochs": 5,
+    "optimizer": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "loss": "MaskedHuber(delta=0.5)",
+    "amp": true,
+    "grad_clip_norm": 1.0,
+    "scheduler": "ReduceLROnPlateau(factor=0.5, patience=3)",
+    "early_stopping_patience": 6
+  },
+  "normalization": {
+    "train_only_mean": "saved in checkpoint",
+    "train_only_std": "saved in checkpoint"
+  },
+  "artifacts": {
+    "checkpoint": "checkpoints\\best_unet_regression.pt",
+    "present_day_tif": "outputs\\cisi_pred_present_025deg.tif",
+    "cisi_2030_tif": "outputs\\cisi_pred_2030_025deg.tif",
+    "qa_figs_dir": "qa_figs"
+  }
+}
