@@ -1,0 +1,32 @@
+2026-04-02 10:34:14,527 INFO    MainThread:32420 [wandb_init.py:setup_run_log_directory():717] Logging user logs to c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260402_103414-eiapz31v\logs\debug.log
+2026-04-02 10:34:14,528 INFO    MainThread:32420 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260402_103414-eiapz31v\logs\debug-internal.log
+2026-04-02 10:34:14,528 INFO    MainThread:32420 [wandb_init.py:init():844] calling init triggers
+2026-04-02 10:34:14,528 INFO    MainThread:32420 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'lam': 5.0, 'lr': 0.00012250967970040024, 'dropout': 0.2, '_wandb': {}}
+2026-04-02 10:34:14,528 INFO    MainThread:32420 [wandb_init.py:init():892] starting backend
+2026-04-02 10:34:42,211 WARNING MainThread:32420 [wandb_init.py:init():1587] [no run ID] interrupted
+Traceback (most recent call last):
+  File "c:\Users\Gebruiker\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_init.py", line 1578, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Gebruiker\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_init.py", line 894, in init
+    service = self._wl.ensure_service()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Gebruiker\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\wandb_setup.py", line 387, in ensure_service
+    self._connection = service_connection.connect_to_service(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Gebruiker\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\lib\service\service_connection.py", line 51, in connect_to_service
+    return _start_and_connect_service(asyncer, settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Gebruiker\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\lib\service\service_connection.py", line 64, in _start_and_connect_service
+    proc = service_process.start(settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Gebruiker\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\lib\service\service_process.py", line 33, in start
+    return _launch_server(settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Gebruiker\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\lib\service\service_process.py", line 105, in _launch_server
+    token = service_port_file.poll_for_token(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Gebruiker\AppData\Local\Programs\Python\Python311\Lib\site-packages\wandb\sdk\lib\service\service_port_file.py", line 61, in poll_for_token
+    _SLEEP(max(0, min(0.2, end_time - _MONOTONIC())))
+KeyboardInterrupt

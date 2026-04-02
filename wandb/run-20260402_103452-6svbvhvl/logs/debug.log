@@ -1,0 +1,10 @@
+2026-04-02 10:34:52,502 INFO    MainThread:31872 [wandb_setup.py:_flush():81] Current SDK version is 0.25.1
+2026-04-02 10:34:52,502 INFO    MainThread:31872 [wandb_setup.py:_flush():81] Configure stats pid to 31872
+2026-04-02 10:34:52,502 INFO    MainThread:31872 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-04-02 10:34:52,504 INFO    MainThread:31872 [wandb_init.py:setup_run_log_directory():717] Logging user logs to c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260402_103452-6svbvhvl\logs\debug.log
+2026-04-02 10:34:52,504 INFO    MainThread:31872 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260402_103452-6svbvhvl\logs\debug-internal.log
+2026-04-02 10:34:52,504 INFO    MainThread:31872 [wandb_init.py:monkeypatch_ipython():636] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002293C85EA90>
+2026-04-02 10:34:52,504 INFO    MainThread:31872 [wandb_init.py:init():844] calling init triggers
+2026-04-02 10:34:52,504 INFO    MainThread:31872 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'lam': 5.0, 'lr': 0.00012250967970040024, 'dropout': 0.2, '_wandb': {}}
+2026-04-02 10:34:52,504 INFO    MainThread:31872 [wandb_init.py:init():892] starting backend
