@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python C:/tmp/build_nb.py)",
+      "Bash(python -c ':*)",
+      "Bash(cp figures/* results_v1/figures/)",
+      "Bash(cp predictions/* results_v1/predictions/)",
+      "Bash(cp qa_figs/* results_v1/qa_figs/)",
+      "Bash(cp best_search_model.pt results_v1/)",
+      "Bash(cp stratified_model.pt results_v1/)"
+    ]
+  }
+}
