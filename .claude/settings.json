@@ -7,7 +7,17 @@
       "Bash(cp predictions/* results_v1/predictions/)",
       "Bash(cp qa_figs/* results_v1/qa_figs/)",
       "Bash(cp best_search_model.pt results_v1/)",
-      "Bash(cp stratified_model.pt results_v1/)"
+      "Bash(cp stratified_model.pt results_v1/)",
+      "Bash(python C:/tmp/fix_preprocess.py)",
+      "Bash(python C:/tmp/fix_preprocess_v2.py)",
+      "Bash(python C:/tmp/build_verify_v2.py)",
+      "Bash(python C:/tmp/fix_preprocess_v3.py)",
+      "Bash(python C:/tmp/fix_preprocess_v4.py)",
+      "Bash(python C:/tmp/fix_imports.py)",
+      "Bash(python C:/tmp/fix_train_stats.py)",
+      "Bash(python C:/tmp/fix_encoding.py)",
+      "Bash(python C:/tmp/fix_encoding2.py)",
+      "Bash(python C:/tmp/fix_emojis.py)"
     ]
   }
 }
