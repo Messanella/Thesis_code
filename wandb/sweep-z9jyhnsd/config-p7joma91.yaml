@@ -1,0 +1,22 @@
+wandb_version: 1
+
+alpha:
+  value: 2.109607521779168
+base_channels:
+  value: 16
+batch_size:
+  value: 64
+dropout:
+  value: 0.3
+kappa:
+  value: 22.323633526406475
+loss_fn:
+  value: mse
+lr:
+  value: 0.002519988151284163
+n_layers:
+  value: 2
+patch_size:
+  value: 32
+weight_decay:
+  value: 8.278808459771896e-06

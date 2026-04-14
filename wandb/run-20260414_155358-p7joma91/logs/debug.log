@@ -1,0 +1,42 @@
+2026-04-14 15:53:58,281 INFO    Thread-17 (_run_job):7456 [wandb_setup.py:_flush():77] Current SDK version is 0.17.9
+2026-04-14 15:53:58,281 INFO    Thread-17 (_run_job):7456 [wandb_setup.py:_flush():77] Configure stats pid to 7456
+2026-04-14 15:53:58,281 INFO    Thread-17 (_run_job):7456 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Gebruiker\.config\wandb\settings
+2026-04-14 15:53:58,281 INFO    Thread-17 (_run_job):7456 [wandb_setup.py:_flush():77] Loading settings from c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\settings
+2026-04-14 15:53:58,281 INFO    Thread-17 (_run_job):7456 [wandb_setup.py:_flush():77] Loading settings from environment variables: {'project': 'cisi-hyperparameter-sweep', 'entity': 'mjm060323-university-of-amsterdam', 'root_dir': 'c:\\Users\\Gebruiker\\Desktop\\Thesis\\FutureCISI-main\\empy_repo_for_thesis', 'run_id': 'p7joma91', 'sweep_param_path': 'c:\\Users\\Gebruiker\\Desktop\\Thesis\\FutureCISI-main\\empy_repo_for_thesis\\wandb\\sweep-z9jyhnsd\\config-p7joma91.yaml', 'sweep_id': 'z9jyhnsd'}
+2026-04-14 15:53:58,281 INFO    Thread-17 (_run_job):7456 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2026-04-14 15:53:58,281 INFO    Thread-17 (_run_job):7456 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2026-04-14 15:53:58,281 INFO    Thread-17 (_run_job):7456 [wandb_setup.py:_flush():77] Applying login settings: {}
+2026-04-14 15:53:58,282 INFO    Thread-17 (_run_job):7456 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_155358-p7joma91\logs\debug.log
+2026-04-14 15:53:58,282 INFO    Thread-17 (_run_job):7456 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_155358-p7joma91\logs\debug-internal.log
+2026-04-14 15:53:58,282 INFO    Thread-17 (_run_job):7456 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000258A5A02ED0>
+2026-04-14 15:53:58,283 INFO    Thread-17 (_run_job):7456 [wandb_init.py:init():608] calling init triggers
+2026-04-14 15:53:58,283 INFO    Thread-17 (_run_job):7456 [wandb_init.py:init():615] wandb.init called with sweep_config: {'alpha': 2.109607521779168, 'base_channels': 16, 'batch_size': 64, 'dropout': 0.3, 'kappa': 22.323633526406475, 'loss_fn': 'mse', 'lr': 0.002519988151284163, 'n_layers': 2, 'patch_size': 32, 'weight_decay': 8.278808459771896e-06}
+config: {}
+2026-04-14 15:53:58,283 INFO    Thread-17 (_run_job):7456 [wandb_init.py:init():658] starting backend
+2026-04-14 15:53:58,283 INFO    Thread-17 (_run_job):7456 [wandb_init.py:init():662] setting up manager
+2026-04-14 15:53:58,291 INFO    Thread-17 (_run_job):7456 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2026-04-14 15:53:58,293 INFO    Thread-17 (_run_job):7456 [wandb_init.py:init():670] backend started and connected
+2026-04-14 15:53:58,321 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_config_callback():1392] config_cb None None {'alpha': 2.109607521779168, 'base_channels': 16, 'batch_size': 64, 'dropout': 0.3, 'kappa': 22.323633526406475, 'loss_fn': 'mse', 'lr': 0.002519988151284163, 'n_layers': 2, 'patch_size': 32, 'weight_decay': 8.278808459771896e-06}
+2026-04-14 15:53:58,460 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_label_probe_notebook():1344] probe notebook
+2026-04-14 15:53:58,461 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_label_probe_notebook():1354] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2026-04-14 15:53:58,461 INFO    Thread-17 (_run_job):7456 [wandb_init.py:init():768] updated telemetry
+2026-04-14 15:53:58,530 INFO    Thread-17 (_run_job):7456 [wandb_init.py:init():801] communicating run to backend with 90.0 second timeout
+2026-04-14 15:53:59,038 INFO    Thread-17 (_run_job):7456 [wandb_init.py:init():852] starting run threads in backend
+2026-04-14 15:54:00,508 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_console_start():2465] atexit reg
+2026-04-14 15:54:00,509 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2026-04-14 15:54:00,509 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2026-04-14 15:54:00,509 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_redirect():2401] Redirects installed.
+2026-04-14 15:54:00,512 INFO    Thread-17 (_run_job):7456 [wandb_init.py:init():895] run started, returning control to user process
+2026-04-14 16:33:33,674 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_finish():2162] finishing run mjm060323-university-of-amsterdam/cisi-hyperparameter-sweep/p7joma91
+2026-04-14 16:33:33,684 INFO    Thread-17 (_run_job):7456 [jupyter.py:save_history():444] not saving jupyter history
+2026-04-14 16:33:33,684 INFO    Thread-17 (_run_job):7456 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2026-04-14 16:33:33,684 INFO    Thread-17 (_run_job):7456 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2026-04-14 16:33:33,685 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2026-04-14 16:33:33,687 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_restore():2408] restore
+2026-04-14 16:33:33,688 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_restore():2414] restore done
+2026-04-14 16:33:33,689 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_on_finish():2679] communicating current version
+2026-04-14 16:33:33,864 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_on_finish():2688] got version response upgrade_message: "wandb version 0.26.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2026-04-14 16:33:39,735 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_footer_history_summary_info():4088] rendering history
+2026-04-14 16:33:39,736 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_footer_history_summary_info():4120] rendering summary
+2026-04-14 16:33:39,759 INFO    Thread-17 (_run_job):7456 [wandb_run.py:_footer_sync_info():4047] logging synced files

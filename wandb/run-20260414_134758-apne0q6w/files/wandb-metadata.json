@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9",
+    "heartbeatAt": "2026-04-14T11:48:00.375813",
+    "startedAt": "2026-04-14T11:47:58.722544",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Messanella/Thesis_code.git",
+        "commit": "cf5c72f4573348b144fb857cf918ca0072ad3387"
+    },
+    "email": "152191325+Messanella@users.noreply.github.com",
+    "root": "C:/Users/Gebruiker/Desktop/Thesis/FutureCISI-main/empy_repo_for_thesis",
+    "host": "DESKTOP-UPLTQBF",
+    "username": "Gebruiker",
+    "executable": "c:\\Users\\Gebruiker\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1298.0,
+        "min": 0.0,
+        "max": 1498.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1298.0,
+            "min": 0.0,
+            "max": 1498.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 475.77929306030273,
+            "used": 469.1544303894043
+        }
+    },
+    "gpu": "NVIDIA GeForce MX350",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX350",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.781242370605469
+    }
+}

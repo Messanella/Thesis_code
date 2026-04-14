@@ -1,0 +1,1255 @@
+2026-04-14 15:06:27,765 INFO    StreamThr :36064 [internal.py:wandb_internal():85] W&B internal server running at pid: 36064, started at: 2026-04-14 15:06:27.764931
+2026-04-14 15:06:27,767 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status
+2026-04-14 15:06:27,793 INFO    WriterThread:36064 [datastore.py:open_for_write():87] open: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\run-kd1n9yw5.wandb
+2026-04-14 15:06:27,794 DEBUG   SenderThread:36064 [sender.py:send():391] send: header
+2026-04-14 15:06:27,845 DEBUG   SenderThread:36064 [sender.py:send():391] send: run
+2026-04-14 15:06:28,434 INFO    SenderThread:36064 [dir_watcher.py:__init__():211] watching files in: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files
+2026-04-14 15:06:28,434 INFO    SenderThread:36064 [sender.py:_start_run_threads():1200] run started: kd1n9yw5 with start time 1776171987.768926
+2026-04-14 15:06:28,453 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: run_start
+2026-04-14 15:06:29,292 DEBUG   HandlerThread:36064 [system_info.py:__init__():26] System info init
+2026-04-14 15:06:29,292 DEBUG   HandlerThread:36064 [system_info.py:__init__():41] System info init done
+2026-04-14 15:06:29,292 INFO    HandlerThread:36064 [system_monitor.py:start():194] Starting system monitor
+2026-04-14 15:06:29,292 INFO    SystemMonitor:36064 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2026-04-14 15:06:29,292 INFO    HandlerThread:36064 [system_monitor.py:probe():214] Collecting system info
+2026-04-14 15:06:29,301 INFO    SystemMonitor:36064 [interfaces.py:start():188] Started cpu monitoring
+2026-04-14 15:06:29,302 INFO    SystemMonitor:36064 [interfaces.py:start():188] Started disk monitoring
+2026-04-14 15:06:29,303 INFO    SystemMonitor:36064 [interfaces.py:start():188] Started gpu monitoring
+2026-04-14 15:06:29,304 INFO    SystemMonitor:36064 [interfaces.py:start():188] Started memory monitoring
+2026-04-14 15:06:29,316 INFO    SystemMonitor:36064 [interfaces.py:start():188] Started network monitoring
+2026-04-14 15:06:29,325 DEBUG   HandlerThread:36064 [system_info.py:probe():152] Probing system
+2026-04-14 15:06:29,326 DEBUG   HandlerThread:36064 [system_info.py:_probe_git():137] Probing git
+2026-04-14 15:06:29,333 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:29,334 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:29,415 DEBUG   HandlerThread:36064 [system_info.py:_probe_git():145] Probing git done
+2026-04-14 15:06:29,416 DEBUG   HandlerThread:36064 [system_info.py:probe():200] Probing system done
+2026-04-14 15:06:29,416 DEBUG   HandlerThread:36064 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.26200-SP0', 'python': '3.11.9', 'heartbeatAt': '2026-04-14T13:06:29.325451', 'startedAt': '2026-04-14T13:06:27.750288', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Messanella/Thesis_code.git', 'commit': 'cf5c72f4573348b144fb857cf918ca0072ad3387'}, 'email': '152191325+Messanella@users.noreply.github.com', 'root': 'C:/Users/Gebruiker/Desktop/Thesis/FutureCISI-main/empy_repo_for_thesis', 'host': 'DESKTOP-UPLTQBF', 'username': 'Gebruiker', 'executable': 'c:\\Users\\Gebruiker\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1298.0, 'min': 0.0, 'max': 1498.0}, 'cpu_freq_per_core': [{'current': 1298.0, 'min': 0.0, 'max': 1498.0}], 'disk': {'/': {'total': 475.77929306030273, 'used': 469.2868995666504}}, 'gpu': 'NVIDIA GeForce MX350', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX350', 'memory_total': 2147483648}], 'memory': {'total': 15.781242370605469}}
+2026-04-14 15:06:29,416 INFO    HandlerThread:36064 [system_monitor.py:probe():224] Finished collecting system info
+2026-04-14 15:06:29,416 INFO    HandlerThread:36064 [system_monitor.py:probe():227] Publishing system info
+2026-04-14 15:06:29,417 INFO    HandlerThread:36064 [system_monitor.py:probe():229] Finished publishing system info
+2026-04-14 15:06:29,438 DEBUG   SenderThread:36064 [sender.py:send():391] send: files
+2026-04-14 15:06:29,438 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2026-04-14 15:06:29,443 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-metadata.json
+2026-04-14 15:06:29,877 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: python_packages
+2026-04-14 15:06:29,877 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: python_packages
+2026-04-14 15:06:29,878 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:06:29,880 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:06:29,883 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:06:30,048 INFO    wandb-upload_0:36064 [upload_job.py:push():130] Uploaded file C:\Users\GEBRUI~1\AppData\Local\Temp\tmppjl8vthkwandb\0uq5i57l-wandb-metadata.json
+2026-04-14 15:06:30,126 DEBUG   SenderThread:36064 [sender.py:send():391] send: telemetry
+2026-04-14 15:06:30,451 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\requirements.txt
+2026-04-14 15:06:30,451 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\output.log
+2026-04-14 15:06:31,497 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:31,498 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:32,476 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\output.log
+2026-04-14 15:06:33,151 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:06:33,645 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:33,646 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:35,789 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:35,789 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:37,927 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:37,928 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:38,926 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:06:39,151 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:06:39,152 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:06:39,152 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:06:39,154 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:06:39,549 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:06:39,876 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:06:40,074 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:40,074 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:42,230 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:42,231 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:43,943 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:06:44,378 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:44,380 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:44,882 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:06:44,882 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:06:46,518 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:46,519 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:47,876 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:06:47,876 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:06:47,877 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:06:47,881 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:06:48,631 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:06:48,654 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:48,654 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:49,880 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:06:49,895 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:06:50,815 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:50,816 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:52,968 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:52,969 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:54,918 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:06:55,119 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:55,120 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:57,276 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:57,276 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:59,427 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:59,428 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:06:59,443 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:06:59,443 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:06:59,443 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:06:59,445 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:06:59,780 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:06:59,871 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:06:59,872 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:06:59,887 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:07:00,204 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:00,782 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\config.yaml
+2026-04-14 15:07:01,650 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:07:01,667 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:01,667 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:03,823 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:03,823 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:05,932 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:05,965 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:05,966 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:08,111 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:08,112 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:09,890 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:07:10,173 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:07:10,174 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:07:10,174 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:07:10,176 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:07:10,266 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:10,266 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:10,889 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:07:11,181 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:12,411 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:12,411 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:14,560 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:14,561 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:14,893 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:07:14,893 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:07:16,722 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:16,722 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:17,125 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:18,872 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:18,872 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:19,898 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:07:21,014 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:21,014 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:21,292 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:07:21,292 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:07:21,293 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:07:21,296 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:07:22,031 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:07:22,309 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:23,217 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:23,218 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:25,360 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:25,361 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:27,505 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:27,505 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:27,987 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:29,317 DEBUG   SystemMonitor:36064 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2026-04-14 15:07:29,318 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:07:29,639 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:29,640 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:29,898 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:07:29,899 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:07:29,915 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:07:31,772 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:07:31,772 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:07:31,773 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:07:31,774 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:07:31,786 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:31,786 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:32,166 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:07:33,801 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:34,004 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:07:34,019 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:34,019 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:36,173 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:36,173 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:38,323 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:38,324 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:38,998 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:39,915 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:07:40,475 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:40,475 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:42,103 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:07:42,103 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:07:42,104 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:07:42,105 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:07:42,289 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:07:42,627 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:42,628 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:44,129 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:44,778 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:44,778 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:44,893 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:07:44,893 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:07:46,926 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:46,926 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:49,071 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:49,072 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:49,143 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:49,913 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:07:51,222 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:51,222 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:52,267 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:07:52,268 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:07:52,268 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:07:52,270 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:07:52,378 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:07:53,383 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:53,383 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:54,295 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:55,527 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:55,528 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:57,675 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:57,675 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:59,319 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:07:59,320 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:07:59,866 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:59,866 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:07:59,899 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:07:59,900 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:07:59,933 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:08:02,051 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:02,052 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:04,203 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:04,203 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:04,976 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:05,926 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:08:05,928 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:08:05,928 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:08:05,931 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:08:06,409 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:08:06,421 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:06,421 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:06,555 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:08:08,564 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:08,564 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:09,940 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:08:09,983 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:10,721 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:10,721 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:12,899 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:12,899 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:14,896 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:08:14,897 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:08:15,048 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:15,048 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:15,195 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:17,192 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:17,193 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:19,368 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:19,369 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:19,941 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:08:20,398 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:08:20,400 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:08:20,400 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:08:20,401 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:20,402 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:08:20,720 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:08:21,532 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:21,533 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:23,685 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:23,686 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:25,826 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:25,827 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:26,031 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:27,980 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:27,981 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:29,324 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:08:29,907 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:08:29,907 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:08:29,950 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:08:30,123 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:30,123 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:31,163 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:31,254 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:08:31,255 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:08:31,255 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:08:31,256 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:08:31,867 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:08:32,278 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:32,279 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:34,426 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:34,426 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:36,567 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:36,568 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:37,079 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:38,769 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:08:38,784 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:38,784 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:39,965 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:08:40,925 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:40,926 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:41,574 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:08:41,575 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:08:41,576 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:08:41,578 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:08:41,986 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:08:42,597 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:43,082 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:43,083 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:44,919 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:08:44,920 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:08:45,250 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:45,250 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:47,406 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:47,407 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:48,249 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:49,559 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:49,559 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:49,967 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:08:51,701 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:51,701 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:51,703 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:08:51,704 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:08:51,704 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:08:51,706 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:08:52,104 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:08:53,731 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:53,862 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:53,863 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:56,009 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:56,010 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:58,160 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:58,160 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:08:59,142 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:08:59,331 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:08:59,930 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:08:59,931 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:08:59,973 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:09:00,307 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:00,308 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:02,450 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:02,451 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:03,136 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:09:03,136 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:09:03,137 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:09:03,138 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:09:03,215 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:09:04,152 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:04,608 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:04,608 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:06,748 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:06,749 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:08,902 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:08,903 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:09,164 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:09,978 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:09:11,125 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:09:11,138 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:11,138 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:13,290 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:13,290 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:13,641 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:09:13,642 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:09:13,642 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:09:13,643 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:09:14,341 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:09:14,653 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:14,939 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:09:14,939 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:09:15,487 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:15,487 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:17,625 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:17,626 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:19,762 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:19,764 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:19,970 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:09:20,171 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:21,919 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:21,919 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:24,055 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:09:24,055 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:09:24,055 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:09:24,057 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:09:24,063 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:24,064 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:24,449 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:09:25,183 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:26,215 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:26,216 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:28,373 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:28,373 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:29,336 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:09:29,945 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:09:29,946 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:09:29,975 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:09:30,193 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:30,518 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:30,519 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:32,668 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:32,668 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:34,401 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:09:34,402 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:09:34,402 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:09:34,404 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:09:34,574 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:09:34,836 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:34,837 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:35,199 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:36,991 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:36,991 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:39,142 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:39,142 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:39,993 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:09:40,207 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:41,299 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:41,299 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:43,519 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:09:43,530 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:43,530 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:44,844 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:09:44,845 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:09:44,846 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:09:44,848 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:09:44,948 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:09:44,949 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:09:45,214 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:45,676 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:45,677 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:45,712 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:09:47,826 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:47,826 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:49,968 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:49,968 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:49,998 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:09:50,218 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:52,123 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:52,123 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:54,276 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:54,276 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:55,167 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:09:55,168 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:09:55,168 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:09:55,169 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:09:55,233 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:09:55,842 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:09:56,435 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:56,436 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:58,591 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:58,592 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:09:59,341 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:09:59,968 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:09:59,970 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:10:00,021 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:10:00,248 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:00,758 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:00,758 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:02,915 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:02,916 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:05,065 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:05,066 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:05,264 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:07,214 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:07,215 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:07,241 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:10:07,242 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:10:07,242 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:10:07,247 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:10:07,960 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:10:09,359 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:09,359 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:10,031 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:10:10,280 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:11,516 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:11,516 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:13,663 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:13,665 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:14,987 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:10:14,987 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:10:15,285 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:15,875 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:10:15,889 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:15,889 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:18,035 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:18,035 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:18,045 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:10:18,047 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:10:18,047 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:10:18,048 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:10:19,038 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:10:20,046 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:10:20,182 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:20,182 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:20,290 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:22,327 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:22,327 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:24,468 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:24,468 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:26,293 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:26,621 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:26,621 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:28,334 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:10:28,334 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:10:28,335 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:10:28,335 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:10:28,775 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:28,775 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:29,147 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:10:29,349 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:10:30,000 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:10:30,001 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:10:30,074 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:10:30,929 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:30,930 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:31,299 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:33,086 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:33,086 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:35,320 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:35,321 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:36,338 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:37,473 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:37,474 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:39,624 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:39,624 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:40,079 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:10:41,358 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:41,475 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:10:41,475 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:10:41,475 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:10:41,476 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:10:41,782 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:41,783 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:42,328 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:10:43,941 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:43,942 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:45,018 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:10:45,019 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:10:46,100 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:46,100 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:46,381 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:48,309 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:10:48,320 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:48,321 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:50,081 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:10:50,472 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:50,473 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:51,392 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:52,109 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:10:52,111 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:10:52,112 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:10:52,114 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:10:52,455 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:10:52,623 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:52,623 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:54,773 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:54,773 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:56,927 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:56,943 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:57,394 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:10:59,097 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:59,098 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:10:59,359 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:11:00,014 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:11:00,015 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:11:00,090 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:11:01,249 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:01,250 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:02,414 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:02,702 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:11:02,703 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:11:02,703 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:11:02,704 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:11:03,399 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:03,400 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:03,558 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:11:05,555 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:05,555 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:07,428 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:07,706 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:07,707 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:09,859 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:09,859 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:10,100 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:11:12,003 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:12,003 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:12,440 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:13,243 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:11:13,244 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:11:13,244 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:11:13,249 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:11:13,674 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:11:14,156 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:14,157 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:15,048 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:11:15,055 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:11:16,311 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:16,313 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:18,448 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:18,463 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:18,464 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:20,115 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:11:20,661 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:11:20,673 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:20,673 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:22,825 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:22,825 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:24,451 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:11:24,452 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:11:24,452 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:11:24,453 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:24,455 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:11:24,802 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:11:24,972 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:24,972 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:27,122 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:27,122 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:29,276 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:29,276 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:29,373 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:11:30,044 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:11:30,045 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:11:30,122 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:11:30,291 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:31,424 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:31,425 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:33,576 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:33,578 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:34,939 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:11:34,939 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:11:34,939 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:11:34,940 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:11:35,453 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:35,735 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:35,735 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:35,933 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:11:37,881 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:37,882 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:40,038 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:40,039 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:40,131 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:11:41,456 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:42,187 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:42,188 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:44,341 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:44,341 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:45,053 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:11:45,054 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:11:45,904 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:11:45,904 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:11:45,904 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:11:45,905 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:11:46,049 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:11:46,484 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:46,484 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:46,908 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:48,626 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:48,628 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:50,145 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:11:50,789 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:50,789 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:52,500 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:52,992 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:11:53,005 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:53,006 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:55,149 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:55,149 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:56,547 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:11:56,548 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:11:56,548 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:11:56,550 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:11:57,169 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:11:57,292 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:57,292 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:57,556 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:11:59,375 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:11:59,434 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:11:59,434 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:00,056 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:12:00,057 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:12:00,149 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:12:01,584 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:01,584 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:03,518 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:03,739 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:03,740 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:05,904 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:05,904 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:07,275 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:12:07,275 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:12:07,276 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:12:07,278 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:12:08,065 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:08,065 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:08,281 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:12:09,308 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:10,157 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:12:10,219 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:10,219 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:12,374 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:12,374 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:14,512 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:14,513 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:14,530 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:15,076 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:12:15,076 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:12:16,662 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:16,663 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:18,146 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:12:18,147 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:12:18,148 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:12:18,149 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:12:18,401 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:12:18,808 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:18,808 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:20,163 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:20,164 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:12:20,966 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:20,966 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:23,121 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:23,122 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:25,316 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:12:25,325 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:25,326 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:25,520 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:27,474 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:27,474 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:29,022 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:12:29,023 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:12:29,023 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:12:29,025 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:12:29,381 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:12:29,520 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:12:29,626 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:29,627 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:30,097 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:12:30,098 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:12:30,165 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:12:30,537 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:31,767 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:31,767 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:33,911 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:33,912 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:35,548 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:36,072 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:36,072 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:38,222 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:38,223 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:39,840 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:12:39,841 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:12:39,841 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:12:39,842 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:12:40,155 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:12:40,375 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:40,376 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:40,565 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:40,626 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:12:42,546 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:42,547 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:44,734 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:44,734 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:45,133 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:12:45,133 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:12:45,568 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:46,904 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:46,904 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:49,060 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:49,060 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:50,171 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:12:50,582 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:51,228 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:51,229 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:53,435 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:53,435 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:55,027 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:12:55,028 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:12:55,031 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:12:55,032 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:12:55,595 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:12:55,602 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:55,603 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:55,815 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:12:57,819 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:12:57,835 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:57,836 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:59,395 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:12:59,995 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:12:59,995 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:00,132 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:13:00,133 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:13:00,167 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:13:00,602 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:02,155 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:02,155 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:04,320 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:04,321 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:06,469 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:06,470 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:06,606 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:08,624 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:08,625 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:08,940 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:13:08,943 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:13:08,943 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:13:08,944 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:13:08,971 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:13:10,155 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:13:10,882 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:10,883 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:11,620 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:13,050 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:13,050 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:15,130 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:13:15,131 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:13:15,200 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:15,200 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:16,628 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:17,346 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:17,348 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:19,501 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:19,502 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:20,170 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:13:21,631 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:21,668 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:21,668 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:21,691 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:13:21,692 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:13:21,692 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:13:21,693 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:13:22,133 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:13:23,824 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:23,825 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:25,972 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:25,973 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:27,642 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:28,134 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:28,134 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:29,401 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:13:30,134 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:13:30,134 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:13:30,181 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:13:30,338 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:13:30,350 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:30,350 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:32,512 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:32,513 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:32,645 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:33,139 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:13:33,139 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:13:33,140 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:13:33,141 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:13:33,240 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:13:34,687 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:34,687 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:36,844 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:36,845 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:38,634 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:38,992 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:38,992 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:40,179 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:13:41,145 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:41,146 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:43,288 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:43,288 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:44,249 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:13:44,250 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:13:44,250 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:13:44,250 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:44,251 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:13:44,351 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:13:45,136 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:13:45,136 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:13:45,447 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:45,448 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:47,593 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:47,596 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:49,684 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:49,753 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:49,753 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:50,182 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:13:51,907 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:51,908 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:54,048 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:54,049 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:55,418 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:13:55,419 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:13:55,419 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:13:55,419 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:13:55,420 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:13:55,459 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:13:56,192 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:56,192 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:58,341 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:58,342 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:13:59,402 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:14:00,131 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:14:00,132 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:14:00,197 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:14:00,489 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:00,489 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:00,647 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:02,743 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:14:02,759 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:02,759 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:04,910 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:04,911 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:05,652 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:07,061 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:07,061 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:08,523 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:14:08,524 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:14:08,524 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:14:08,525 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:14:08,742 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:14:09,212 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:09,212 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:10,195 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:14:10,664 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:11,370 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:11,371 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:13,519 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:13,520 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:15,136 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:14:15,137 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:14:15,669 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:15,671 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:15,672 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:17,814 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:17,814 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:19,972 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:19,972 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:20,205 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:14:20,670 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:20,802 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:14:20,802 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:14:20,803 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:14:20,803 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:14:20,921 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:14:22,138 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:22,138 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:24,296 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:24,297 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:25,683 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:26,450 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:26,450 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:28,591 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:28,591 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:29,405 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:14:30,137 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:14:30,138 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:14:30,215 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:14:30,698 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:30,740 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:30,741 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:31,784 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:14:31,784 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:14:31,784 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:14:31,785 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:14:32,056 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:14:32,899 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:32,900 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:35,108 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:14:35,122 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:35,122 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:35,705 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:37,275 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:37,275 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:39,425 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:39,425 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:40,235 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:14:40,713 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:41,581 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:41,581 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:43,618 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:14:43,619 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:14:43,619 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:14:43,620 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:14:43,734 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:43,734 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:44,218 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:14:45,141 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:14:45,142 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:14:45,893 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:45,893 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:46,705 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:48,046 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:48,047 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:50,200 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:50,202 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:50,248 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:14:51,726 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:52,353 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:52,353 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:54,507 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:54,508 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:54,758 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:14:54,759 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:14:54,759 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:14:54,760 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:14:55,366 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:14:56,731 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:56,733 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:56,735 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:14:58,882 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:58,884 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:14:59,410 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:15:00,156 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:15:00,157 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:15:00,266 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:15:01,027 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:01,028 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:01,747 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:03,187 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:03,188 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:05,341 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:05,341 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:06,201 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:15:06,202 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:15:06,202 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:15:06,203 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:15:06,495 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:15:07,213 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:07,562 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:15:07,576 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:07,576 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:09,731 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:09,732 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:10,270 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:15:11,884 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:11,884 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:12,799 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:14,044 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:14,044 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:15,164 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:15:15,165 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:15:16,210 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:16,210 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:17,804 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:18,371 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:18,372 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:19,481 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:15:19,482 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:15:19,482 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:15:19,483 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:15:19,689 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:15:20,282 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:15:20,522 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:20,522 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:22,666 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:22,667 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:23,804 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:24,824 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:24,824 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:26,972 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:26,973 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:28,821 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:29,125 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:29,125 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:29,413 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:15:30,163 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:15:30,164 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:15:30,286 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:15:31,270 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:31,270 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:31,667 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:15:31,668 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:15:31,668 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:15:31,669 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:15:31,832 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:15:33,438 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:33,439 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:34,694 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:35,587 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:35,587 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:37,748 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:37,749 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:39,848 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:39,968 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:15:39,984 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:39,985 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:40,298 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:15:42,138 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:42,139 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:44,300 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:44,300 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:44,856 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:45,169 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:15:45,169 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:15:46,447 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:46,448 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:46,890 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:15:46,891 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:15:46,891 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:15:46,892 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:15:47,075 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:15:48,604 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:48,605 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:49,911 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:50,302 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:15:50,756 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:50,756 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:52,915 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:52,915 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:55,071 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:55,072 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:55,855 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:15:57,234 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:57,234 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:58,790 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:15:58,791 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:15:58,791 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:15:58,792 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:15:59,242 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:15:59,392 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:59,392 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:15:59,426 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:16:00,189 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 15:16:00,190 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 15:16:00,316 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:16:00,859 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:16:01,547 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:01,548 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:03,702 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:03,702 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:05,857 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:05,858 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:05,871 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:16:08,010 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:08,011 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:09,989 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:16:09,989 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:16:09,990 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:16:09,991 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:16:10,199 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:10,199 ERROR   gpu       :36064 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 15:16:10,319 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:16:10,398 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:16:10,883 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:16:11,639 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: partial_history
+2026-04-14 15:16:11,640 DEBUG   SenderThread:36064 [sender.py:send():391] send: history
+2026-04-14 15:16:11,641 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: summary_record
+2026-04-14 15:16:11,642 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:16:11,727 DEBUG   SenderThread:36064 [sender.py:send():391] send: telemetry
+2026-04-14 15:16:11,734 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: check_version
+2026-04-14 15:16:11,734 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: check_version
+2026-04-14 15:16:11,823 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: server_info
+2026-04-14 15:16:11,824 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: server_info
+2026-04-14 15:16:11,992 DEBUG   SenderThread:36064 [sender.py:send():391] send: exit
+2026-04-14 15:16:11,992 INFO    SenderThread:36064 [sender.py:send_exit():598] handling exit code: 0
+2026-04-14 15:16:11,993 INFO    SenderThread:36064 [sender.py:send_exit():600] handling runtime: 583
+2026-04-14 15:16:11,993 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:16:11,994 INFO    SenderThread:36064 [sender.py:send_exit():606] send defer
+2026-04-14 15:16:11,994 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:11,994 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 0
+2026-04-14 15:16:11,994 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:11,995 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 0
+2026-04-14 15:16:11,995 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 1
+2026-04-14 15:16:11,995 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:11,995 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 1
+2026-04-14 15:16:11,995 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:11,995 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 1
+2026-04-14 15:16:11,995 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 2
+2026-04-14 15:16:11,996 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:11,996 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 2
+2026-04-14 15:16:11,996 INFO    HandlerThread:36064 [system_monitor.py:finish():203] Stopping system monitor
+2026-04-14 15:16:11,997 DEBUG   SystemMonitor:36064 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2026-04-14 15:16:11,997 INFO    HandlerThread:36064 [interfaces.py:finish():200] Joined cpu monitor
+2026-04-14 15:16:11,997 DEBUG   SystemMonitor:36064 [system_monitor.py:_start():183] Publishing last batch of metrics
+2026-04-14 15:16:11,997 INFO    HandlerThread:36064 [interfaces.py:finish():200] Joined disk monitor
+2026-04-14 15:16:12,170 ERROR   gpu       :36064 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2026-04-14 15:16:12,171 INFO    HandlerThread:36064 [interfaces.py:finish():200] Joined gpu monitor
+2026-04-14 15:16:12,171 INFO    HandlerThread:36064 [interfaces.py:finish():200] Joined memory monitor
+2026-04-14 15:16:12,171 INFO    HandlerThread:36064 [interfaces.py:finish():200] Joined network monitor
+2026-04-14 15:16:12,171 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:12,171 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 2
+2026-04-14 15:16:12,172 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 3
+2026-04-14 15:16:12,172 DEBUG   SenderThread:36064 [sender.py:send():391] send: stats
+2026-04-14 15:16:12,172 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:12,172 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 3
+2026-04-14 15:16:12,172 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:12,172 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 3
+2026-04-14 15:16:12,172 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 4
+2026-04-14 15:16:12,172 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:12,172 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 4
+2026-04-14 15:16:12,172 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:12,173 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 4
+2026-04-14 15:16:12,173 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 5
+2026-04-14 15:16:12,173 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:12,173 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 5
+2026-04-14 15:16:12,173 DEBUG   SenderThread:36064 [sender.py:send():391] send: summary
+2026-04-14 15:16:12,174 INFO    SenderThread:36064 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2026-04-14 15:16:12,174 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:12,174 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 5
+2026-04-14 15:16:12,174 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 6
+2026-04-14 15:16:12,174 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:12,174 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 6
+2026-04-14 15:16:12,175 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:12,175 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 6
+2026-04-14 15:16:12,178 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:16:12,420 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:16:12,420 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\output.log
+2026-04-14 15:16:12,553 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 7
+2026-04-14 15:16:12,553 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:12,553 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 7
+2026-04-14 15:16:12,553 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:12,553 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 7
+2026-04-14 15:16:12,997 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: poll_exit
+2026-04-14 15:16:13,433 INFO    Thread-16 :36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\config.yaml
+2026-04-14 15:16:14,405 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 8
+2026-04-14 15:16:14,405 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: poll_exit
+2026-04-14 15:16:14,405 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:14,405 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 8
+2026-04-14 15:16:14,406 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:14,406 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 8
+2026-04-14 15:16:14,406 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 9
+2026-04-14 15:16:14,406 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:14,406 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 9
+2026-04-14 15:16:14,406 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:14,406 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 9
+2026-04-14 15:16:14,406 INFO    SenderThread:36064 [dir_watcher.py:finish():358] shutting down directory watcher
+2026-04-14 15:16:14,439 INFO    SenderThread:36064 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\output.log
+2026-04-14 15:16:14,439 INFO    SenderThread:36064 [dir_watcher.py:finish():388] scan: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files
+2026-04-14 15:16:14,439 INFO    SenderThread:36064 [dir_watcher.py:finish():402] scan save: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\config.yaml config.yaml
+2026-04-14 15:16:14,440 INFO    SenderThread:36064 [dir_watcher.py:finish():402] scan save: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\output.log output.log
+2026-04-14 15:16:14,441 INFO    SenderThread:36064 [dir_watcher.py:finish():402] scan save: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\requirements.txt requirements.txt
+2026-04-14 15:16:14,441 INFO    SenderThread:36064 [dir_watcher.py:finish():402] scan save: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-metadata.json wandb-metadata.json
+2026-04-14 15:16:14,441 INFO    SenderThread:36064 [dir_watcher.py:finish():402] scan save: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json wandb-summary.json
+2026-04-14 15:16:14,441 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 10
+2026-04-14 15:16:14,441 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:14,441 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 10
+2026-04-14 15:16:14,442 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:14,442 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 10
+2026-04-14 15:16:14,442 INFO    SenderThread:36064 [file_pusher.py:finish():169] shutting down file pusher
+2026-04-14 15:16:14,921 INFO    wandb-upload_1:36064 [upload_job.py:push():130] Uploaded file c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\output.log
+2026-04-14 15:16:14,928 INFO    wandb-upload_0:36064 [upload_job.py:push():130] Uploaded file c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\config.yaml
+2026-04-14 15:16:14,933 INFO    wandb-upload_3:36064 [upload_job.py:push():130] Uploaded file c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\wandb-summary.json
+2026-04-14 15:16:14,939 INFO    wandb-upload_2:36064 [upload_job.py:push():130] Uploaded file c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\files\requirements.txt
+2026-04-14 15:16:15,012 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: poll_exit
+2026-04-14 15:16:15,012 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: poll_exit
+2026-04-14 15:16:15,152 INFO    Thread-15 (_thread_body):36064 [sender.py:transition_state():626] send defer: 11
+2026-04-14 15:16:15,152 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:15,152 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 11
+2026-04-14 15:16:15,153 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:15,153 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 11
+2026-04-14 15:16:15,153 INFO    SenderThread:36064 [file_pusher.py:join():175] waiting for file pusher
+2026-04-14 15:16:15,153 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 12
+2026-04-14 15:16:15,154 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:15,154 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 12
+2026-04-14 15:16:15,154 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:15,154 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 12
+2026-04-14 15:16:15,154 INFO    SenderThread:36064 [file_stream.py:finish():601] file stream finish called
+2026-04-14 15:16:16,019 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: poll_exit
+2026-04-14 15:16:17,591 INFO    SenderThread:36064 [file_stream.py:finish():605] file stream finish is done
+2026-04-14 15:16:17,591 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 13
+2026-04-14 15:16:17,592 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: poll_exit
+2026-04-14 15:16:17,592 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:17,592 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 13
+2026-04-14 15:16:17,592 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 15:16:17,592 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:17,592 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 13
+2026-04-14 15:16:17,592 INFO    SenderThread:36064 [sender.py:transition_state():626] send defer: 14
+2026-04-14 15:16:17,593 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: defer
+2026-04-14 15:16:17,593 DEBUG   SenderThread:36064 [sender.py:send():391] send: final
+2026-04-14 15:16:17,593 INFO    HandlerThread:36064 [handler.py:handle_request_defer():184] handle defer: 14
+2026-04-14 15:16:17,593 DEBUG   SenderThread:36064 [sender.py:send():391] send: footer
+2026-04-14 15:16:17,593 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: defer
+2026-04-14 15:16:17,593 INFO    SenderThread:36064 [sender.py:send_request_defer():622] handle sender defer: 14
+2026-04-14 15:16:17,593 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: poll_exit
+2026-04-14 15:16:17,594 DEBUG   SenderThread:36064 [sender.py:send_request():418] send_request: poll_exit
+2026-04-14 15:16:17,595 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 15:16:17,596 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: get_summary
+2026-04-14 15:16:17,597 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: sampled_history
+2026-04-14 15:16:17,598 DEBUG   HandlerThread:36064 [handler.py:handle_request():158] handle_request: shutdown
+2026-04-14 15:16:17,598 INFO    HandlerThread:36064 [handler.py:finish():884] shutting down handler
+2026-04-14 15:16:18,602 INFO    SenderThread:36064 [sender.py:finish():1631] shutting down sender
+2026-04-14 15:16:18,602 INFO    WriterThread:36064 [datastore.py:close():296] close: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_150627-kd1n9yw5\run-kd1n9yw5.wandb
+2026-04-14 15:16:18,602 INFO    SenderThread:36064 [file_pusher.py:finish():169] shutting down file pusher
+2026-04-14 15:16:18,602 INFO    SenderThread:36064 [file_pusher.py:join():175] waiting for file pusher

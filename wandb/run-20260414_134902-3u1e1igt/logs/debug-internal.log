@@ -1,0 +1,81 @@
+2026-04-14 13:49:02,809 INFO    StreamThr :2376 [internal.py:wandb_internal():85] W&B internal server running at pid: 2376, started at: 2026-04-14 13:49:02.808080
+2026-04-14 13:49:02,810 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: status
+2026-04-14 13:49:02,837 INFO    WriterThread:2376 [datastore.py:open_for_write():87] open: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_134902-3u1e1igt\run-3u1e1igt.wandb
+2026-04-14 13:49:02,838 DEBUG   SenderThread:2376 [sender.py:send():391] send: header
+2026-04-14 13:49:02,884 DEBUG   SenderThread:2376 [sender.py:send():391] send: run
+2026-04-14 13:49:03,419 INFO    SenderThread:2376 [dir_watcher.py:__init__():211] watching files in: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_134902-3u1e1igt\files
+2026-04-14 13:49:03,419 INFO    SenderThread:2376 [sender.py:_start_run_threads():1200] run started: 3u1e1igt with start time 1776167342.80808
+2026-04-14 13:49:03,443 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: run_start
+2026-04-14 13:49:04,238 DEBUG   HandlerThread:2376 [system_info.py:__init__():26] System info init
+2026-04-14 13:49:04,239 DEBUG   HandlerThread:2376 [system_info.py:__init__():41] System info init done
+2026-04-14 13:49:04,239 INFO    HandlerThread:2376 [system_monitor.py:start():194] Starting system monitor
+2026-04-14 13:49:04,239 INFO    SystemMonitor:2376 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2026-04-14 13:49:04,239 INFO    HandlerThread:2376 [system_monitor.py:probe():214] Collecting system info
+2026-04-14 13:49:04,245 INFO    SystemMonitor:2376 [interfaces.py:start():188] Started cpu monitoring
+2026-04-14 13:49:04,246 INFO    SystemMonitor:2376 [interfaces.py:start():188] Started disk monitoring
+2026-04-14 13:49:04,247 INFO    SystemMonitor:2376 [interfaces.py:start():188] Started gpu monitoring
+2026-04-14 13:49:04,248 INFO    SystemMonitor:2376 [interfaces.py:start():188] Started memory monitoring
+2026-04-14 13:49:04,259 INFO    SystemMonitor:2376 [interfaces.py:start():188] Started network monitoring
+2026-04-14 13:49:04,269 DEBUG   HandlerThread:2376 [system_info.py:probe():152] Probing system
+2026-04-14 13:49:04,271 DEBUG   HandlerThread:2376 [system_info.py:_probe_git():137] Probing git
+2026-04-14 13:49:04,275 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:04,276 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:04,356 DEBUG   HandlerThread:2376 [system_info.py:_probe_git():145] Probing git done
+2026-04-14 13:49:04,357 DEBUG   HandlerThread:2376 [system_info.py:probe():200] Probing system done
+2026-04-14 13:49:04,357 DEBUG   HandlerThread:2376 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.26200-SP0', 'python': '3.11.9', 'heartbeatAt': '2026-04-14T11:49:04.270929', 'startedAt': '2026-04-14T11:49:02.792460', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Messanella/Thesis_code.git', 'commit': 'cf5c72f4573348b144fb857cf918ca0072ad3387'}, 'email': '152191325+Messanella@users.noreply.github.com', 'root': 'C:/Users/Gebruiker/Desktop/Thesis/FutureCISI-main/empy_repo_for_thesis', 'host': 'DESKTOP-UPLTQBF', 'username': 'Gebruiker', 'executable': 'c:\\Users\\Gebruiker\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1298.0, 'min': 0.0, 'max': 1498.0}, 'cpu_freq_per_core': [{'current': 1298.0, 'min': 0.0, 'max': 1498.0}], 'disk': {'/': {'total': 475.77929306030273, 'used': 469.1548080444336}}, 'gpu': 'NVIDIA GeForce MX350', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX350', 'memory_total': 2147483648}], 'memory': {'total': 15.781242370605469}}
+2026-04-14 13:49:04,357 INFO    HandlerThread:2376 [system_monitor.py:probe():224] Finished collecting system info
+2026-04-14 13:49:04,357 INFO    HandlerThread:2376 [system_monitor.py:probe():227] Publishing system info
+2026-04-14 13:49:04,358 INFO    HandlerThread:2376 [system_monitor.py:probe():229] Finished publishing system info
+2026-04-14 13:49:04,370 DEBUG   SenderThread:2376 [sender.py:send():391] send: files
+2026-04-14 13:49:04,370 INFO    SenderThread:2376 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2026-04-14 13:49:04,425 INFO    Thread-16 :2376 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_134902-3u1e1igt\files\wandb-metadata.json
+2026-04-14 13:49:04,658 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: python_packages
+2026-04-14 13:49:04,658 DEBUG   SenderThread:2376 [sender.py:send_request():418] send_request: python_packages
+2026-04-14 13:49:04,658 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 13:49:04,659 DEBUG   SenderThread:2376 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 13:49:04,661 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 13:49:04,918 DEBUG   SenderThread:2376 [sender.py:send():391] send: telemetry
+2026-04-14 13:49:04,961 INFO    wandb-upload_0:2376 [upload_job.py:push():130] Uploaded file C:\Users\GEBRUI~1\AppData\Local\Temp\tmpr1_w56y5wandb\dxvqj0a4-wandb-metadata.json
+2026-04-14 13:49:05,424 INFO    Thread-16 :2376 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_134902-3u1e1igt\files\requirements.txt
+2026-04-14 13:49:05,424 INFO    Thread-16 :2376 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_134902-3u1e1igt\files\output.log
+2026-04-14 13:49:06,419 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:06,419 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:07,441 INFO    Thread-16 :2376 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_134902-3u1e1igt\files\output.log
+2026-04-14 13:49:07,951 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 13:49:08,559 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:08,561 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:10,718 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:10,718 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:12,884 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:12,885 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:13,723 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 13:49:14,657 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 13:49:15,035 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:15,035 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:17,191 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:17,191 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:19,361 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:19,366 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:19,668 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 13:49:19,669 DEBUG   SenderThread:2376 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 13:49:19,937 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 13:49:21,526 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:21,526 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:23,679 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:23,680 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:24,665 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: internal_messages
+2026-04-14 13:49:25,708 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 13:49:25,851 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:25,852 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:28,021 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:28,021 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:30,161 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:30,161 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:30,731 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: status_report
+2026-04-14 13:49:32,318 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:32,319 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:34,678 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:34,678 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: stop_status
+2026-04-14 13:49:34,679 ERROR   gpu       :2376 [interfaces.py:monitor():142] Failed to sample metric: Not Supported
+2026-04-14 13:49:34,680 DEBUG   SenderThread:2376 [sender.py:send_request():418] send_request: stop_status
+2026-04-14 13:49:34,687 DEBUG   HandlerThread:2376 [handler.py:handle_request():158] handle_request: internal_messages

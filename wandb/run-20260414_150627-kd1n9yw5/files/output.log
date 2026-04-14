@@ -1,0 +1,4 @@
+EU mask applied: Italy and non-EU countries excluded
+Found 49,890 valid pixels (patch_size=8)
+Early stop at epoch 50
+New best model -- city_mae=0.1207

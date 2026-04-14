@@ -17,7 +17,23 @@
       "Bash(python C:/tmp/fix_train_stats.py)",
       "Bash(python C:/tmp/fix_encoding.py)",
       "Bash(python C:/tmp/fix_encoding2.py)",
-      "Bash(python C:/tmp/fix_emojis.py)"
+      "Bash(python C:/tmp/fix_emojis.py)",
+      "Bash(python C:/tmp/rebuild_preprocess.py)",
+      "Bash(python C:/tmp/build_summary_nb.py)",
+      "Bash(python C:/tmp/fix_projections_summary.py)",
+      "Bash(python C:/tmp/fix_summary_mask.py)",
+      "Bash(python C:/tmp/fix_valid_mask.py)",
+      "Bash(python C:/tmp/build_wandb_sweep.py)",
+      "Bash(python -c \"import torch; print\\('CUDA:', torch.cuda.is_available\\(\\)\\); print\\('Device:', torch.cuda.get_device_name\\(0\\) if torch.cuda.is_available\\(\\) else 'CPU only'\\)\")",
+      "Bash(python C:/tmp/fix_sweep_expanded.py)",
+      "Bash(python C:/tmp/build_eu_mask.py)",
+      "Bash(python C:/tmp/fix_eu_mask_usage.py)",
+      "Bash(python C:/tmp/add_removed_pixels_analysis.py)",
+      "Bash(python C:/tmp/fix_distribution_cell.py)",
+      "Bash(python -c \"import wandb; print\\('wandb version:', wandb.__version__\\)\")",
+      "Bash(python C:/tmp/remove_gdp_clip.py)",
+      "Bash(python C:/tmp/fix_metrics.py)",
+      "Bash(python C:/tmp/fix_import_copy.py)"
     ]
   }
 }

@@ -1,0 +1,29 @@
+2026-04-14 13:49:02,798 INFO    Thread-13 (_run_job):39856 [wandb_setup.py:_flush():77] Current SDK version is 0.17.9
+2026-04-14 13:49:02,799 INFO    Thread-13 (_run_job):39856 [wandb_setup.py:_flush():77] Configure stats pid to 39856
+2026-04-14 13:49:02,799 INFO    Thread-13 (_run_job):39856 [wandb_setup.py:_flush():77] Loading settings from C:\Users\Gebruiker\.config\wandb\settings
+2026-04-14 13:49:02,799 INFO    Thread-13 (_run_job):39856 [wandb_setup.py:_flush():77] Loading settings from c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\settings
+2026-04-14 13:49:02,799 INFO    Thread-13 (_run_job):39856 [wandb_setup.py:_flush():77] Loading settings from environment variables: {'project': 'cisi-hyperparameter-sweep', 'entity': 'mjm060323-university-of-amsterdam', 'root_dir': 'c:\\Users\\Gebruiker\\Desktop\\Thesis\\FutureCISI-main\\empy_repo_for_thesis', 'run_id': '3u1e1igt', 'sweep_param_path': 'c:\\Users\\Gebruiker\\Desktop\\Thesis\\FutureCISI-main\\empy_repo_for_thesis\\wandb\\sweep-2kf1u0ok\\config-3u1e1igt.yaml', 'sweep_id': '2kf1u0ok'}
+2026-04-14 13:49:02,799 INFO    Thread-13 (_run_job):39856 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2026-04-14 13:49:02,800 INFO    Thread-13 (_run_job):39856 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2026-04-14 13:49:02,800 INFO    Thread-13 (_run_job):39856 [wandb_setup.py:_flush():77] Applying login settings: {}
+2026-04-14 13:49:02,800 INFO    Thread-13 (_run_job):39856 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_134902-3u1e1igt\logs\debug.log
+2026-04-14 13:49:02,800 INFO    Thread-13 (_run_job):39856 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\Gebruiker\Desktop\Thesis\FutureCISI-main\empy_repo_for_thesis\wandb\run-20260414_134902-3u1e1igt\logs\debug-internal.log
+2026-04-14 13:49:02,800 INFO    Thread-13 (_run_job):39856 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000285B42EAD90>
+2026-04-14 13:49:02,800 INFO    Thread-13 (_run_job):39856 [wandb_init.py:init():608] calling init triggers
+2026-04-14 13:49:02,800 INFO    Thread-13 (_run_job):39856 [wandb_init.py:init():615] wandb.init called with sweep_config: {'alpha': 3.418282786269078, 'dropout': 0.3, 'kappa': 32.35898772587721, 'lr': 1.1845240540192647e-05, 'patch_size': 32, 'weight_decay': 2.917014036361819e-06}
+config: {}
+2026-04-14 13:49:02,800 INFO    Thread-13 (_run_job):39856 [wandb_init.py:init():658] starting backend
+2026-04-14 13:49:02,801 INFO    Thread-13 (_run_job):39856 [wandb_init.py:init():662] setting up manager
+2026-04-14 13:49:02,807 INFO    Thread-13 (_run_job):39856 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2026-04-14 13:49:02,808 INFO    Thread-13 (_run_job):39856 [wandb_init.py:init():670] backend started and connected
+2026-04-14 13:49:02,834 INFO    Thread-13 (_run_job):39856 [wandb_run.py:_config_callback():1392] config_cb None None {'alpha': 3.418282786269078, 'dropout': 0.3, 'kappa': 32.35898772587721, 'lr': 1.1845240540192647e-05, 'patch_size': 32, 'weight_decay': 2.917014036361819e-06}
+2026-04-14 13:49:02,836 INFO    Thread-13 (_run_job):39856 [wandb_run.py:_label_probe_notebook():1344] probe notebook
+2026-04-14 13:49:02,836 INFO    Thread-13 (_run_job):39856 [wandb_run.py:_label_probe_notebook():1354] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2026-04-14 13:49:02,836 INFO    Thread-13 (_run_job):39856 [wandb_init.py:init():768] updated telemetry
+2026-04-14 13:49:02,883 INFO    Thread-13 (_run_job):39856 [wandb_init.py:init():801] communicating run to backend with 90.0 second timeout
+2026-04-14 13:49:03,436 INFO    Thread-13 (_run_job):39856 [wandb_init.py:init():852] starting run threads in backend
+2026-04-14 13:49:04,660 INFO    Thread-13 (_run_job):39856 [wandb_run.py:_console_start():2465] atexit reg
+2026-04-14 13:49:04,660 INFO    Thread-13 (_run_job):39856 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2026-04-14 13:49:04,660 INFO    Thread-13 (_run_job):39856 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2026-04-14 13:49:04,660 INFO    Thread-13 (_run_job):39856 [wandb_run.py:_redirect():2401] Redirects installed.
+2026-04-14 13:49:04,661 INFO    Thread-13 (_run_job):39856 [wandb_init.py:init():895] run started, returning control to user process
