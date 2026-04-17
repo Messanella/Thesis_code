@@ -33,7 +33,21 @@
       "Bash(python -c \"import wandb; print\\('wandb version:', wandb.__version__\\)\")",
       "Bash(python C:/tmp/remove_gdp_clip.py)",
       "Bash(python C:/tmp/fix_metrics.py)",
-      "Bash(python C:/tmp/fix_import_copy.py)"
+      "Bash(python C:/tmp/fix_import_copy.py)",
+      "Bash(python C:/tmp/fix_conditional_params.py)",
+      "Bash(python C:/tmp/add_weibull_plot.py)",
+      "Bash(python C:/tmp/make_sweep_nb.py)",
+      "Bash(python C:/tmp/comment_nonsweep.py)",
+      "Bash(python C:/tmp/add_geo_split_plot.py)",
+      "Bash(python C:/tmp/add_dist_plot.py)",
+      "Bash(python C:/tmp/add_split_markdowns.py)",
+      "Bash(python C:/tmp/consolidate_imports.py)",
+      "Bash(python C:/tmp/fix_geo_colors.py)",
+      "Bash(python C:/tmp/check_green_pixels.py)",
+      "Bash(python C:/tmp/fix_geo_colors2.py)",
+      "Bash(python C:/tmp/fix_train_rmse.py)",
+      "Bash(python C:/tmp/add_curve_plot.py)",
+      "Bash(python C:/tmp/fix_main_metric.py)"
     ]
   }
 }
