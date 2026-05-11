@@ -27,3 +27,16 @@ config: {}
 2026-04-14 16:33:56,235 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_redirect():2376] Wrapping output streams.
 2026-04-14 16:33:56,235 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_redirect():2401] Redirects installed.
 2026-04-14 16:33:56,235 INFO    Thread-20 (_run_job):7456 [wandb_init.py:init():895] run started, returning control to user process
+2026-04-14 16:51:03,869 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_finish():2162] finishing run mjm060323-university-of-amsterdam/cisi-hyperparameter-sweep/epv0wc1z
+2026-04-14 16:51:03,885 INFO    Thread-20 (_run_job):7456 [jupyter.py:save_history():444] not saving jupyter history
+2026-04-14 16:51:03,885 INFO    Thread-20 (_run_job):7456 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2026-04-14 16:51:03,886 INFO    Thread-20 (_run_job):7456 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2026-04-14 16:51:03,888 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2026-04-14 16:51:03,890 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_restore():2408] restore
+2026-04-14 16:51:03,891 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_restore():2414] restore done
+2026-04-14 16:51:03,892 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_on_finish():2679] communicating current version
+2026-04-14 16:51:04,140 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_on_finish():2688] got version response upgrade_message: "wandb version 0.26.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2026-04-14 16:51:08,256 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_footer_history_summary_info():4088] rendering history
+2026-04-14 16:51:08,257 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_footer_history_summary_info():4120] rendering summary
+2026-04-14 16:51:08,284 INFO    Thread-20 (_run_job):7456 [wandb_run.py:_footer_sync_info():4047] logging synced files
