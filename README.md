@@ -1,7 +1,4 @@
 # FutureCISI — Thesis code
-
-Code for my MSc thesis.
-
 All input data is stored locally and not included in this repository.
 
 ---
