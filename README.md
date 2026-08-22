@@ -22,4 +22,4 @@ All input data is stored locally and not included in this repository as it is mu
 
 ## Model
 
-The final trained model weights (`best_sweep_final_model.pt`) are not included due to file size.
+The final trained model weights (`best_sweep_final_model.pt`) are also not included due to file size. 
